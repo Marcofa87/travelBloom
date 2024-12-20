@@ -1,0 +1,86 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./travel_recommendations.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    />
+    <title>Contact us</title>
+  </head>
+  <body><body>
+    <nav>
+      <div class="title-container">
+        <i class="fas fa-paper-plane"></i>
+        <h3>TravelBloom</h3>
+      </div>
+      <div class="links-container">
+        <ul>
+          <li><a href="./index.html" id="home">Home</a></li>
+          <li><a href="./about-us.html">About</a></li>
+          <li><a href="./contact-us.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="search-container">
+        <input
+          type="text"
+          id="conditionInput"
+          placeholder="Enter a destination or keyword"
+        />
+        <button id="inputSearch"><i class="fa fa-search"></i></button>
+        <button id="btnSearch">Search</button>
+        <button id="btnClear">Clear</button>
+      </div>
+    </nav>
+    <main>
+      <img src="./assets//new-york.jpg" alt="background new york image" class="background-img"/>
+      <div class="main-container main-contact-container">
+        <div class="social-line-container">
+          <div class="line">
+            <span></span>
+          </div>
+          <div class="social-container">
+            <ul>
+              <li>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="text-container contact-text-container">
+          <h1>CONTACT US</h1>
+          <p>
+            Get in touch
+          </p>
+        </div>
+        <form id="contactForm">
+          <div>
+            <label for="name">Name</label>
+            <input  placeholder="Enter your Email" type="text" id="name" name="name" required>
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input placeholder="Enter your Email" type="email" id="email" name="email" required>
+          </div>
+          <div>
+            <label for="message">Message</label>
+            <textarea  placeholder="Enter your Email" id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    
+    </main>
+</body>
+<script src="./travel_recommendations.js"></script>
+</html>
